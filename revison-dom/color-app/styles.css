@@ -1,0 +1,47 @@
+
+nav{
+    background-color: whitesmoke;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.nav-center{
+    width: 90vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+}
+main{
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+}
+nav a {
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.container h2{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 1rem;
+}
