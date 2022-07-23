@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.bulb-off, .bulb-on{
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  display: inline-block;
+}
+.bulb-off{
+  background-image: url("/public/bulb-off.svg");
+}
+.bulb-on{
+  background-image: url("/public/bulb-on.svg");
+}
