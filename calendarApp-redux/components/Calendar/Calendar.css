@@ -1,0 +1,36 @@
+
+.calendar_container{
+    display: flex;
+    justify-content: center;
+}
+.calendar_inner_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.calendar_inner_container > h2{
+    margin: 50px;
+    font-size: 3rem;
+}
+#calendar-display{
+    font-size: 30px;
+    border: 1px solid white;
+}
+.calendar-container-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.month-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.left-arrow, .right-arrow{
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bolder;
+}
